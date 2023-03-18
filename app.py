@@ -14,7 +14,7 @@ def predict():
     feature_final=np.array(feature).reshape(-1,1)
     prediction=model.predict(feature_final)
     return render_template('index.html',prediction_text='Price of House will be Rs. {}'.format(int(prediction)))
-
+#ggbfjhjjhjhj
 ####################################
 ####################################
 if(__name__=='__main__'):
